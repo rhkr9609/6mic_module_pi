@@ -40,6 +40,11 @@ arecord를 사용하여 a.wav라는 녹음파일을 생성합니다.
 
 위 예제는 5초동안 8개의 채널로 녹음하는 예제입니다.
 
+    aplay -D ac101 a.wav
+
+
+(스피커 장치가 따로 없다면 이어폰을 연결하면 됩니다.)
+
 ## LED 작동코드 다운
 
     git clone --depth 1 https://github.com/respeaker/pixel_ring.git
